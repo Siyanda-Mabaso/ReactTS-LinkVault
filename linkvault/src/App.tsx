@@ -1,4 +1,5 @@
-import { Header } from './Components/Header/Header';
+import Header from './Components/Header/Header';
+import SearchBar from './Components/SearchBar/SearchBar';
 import './App.css'
 
 function App() {
@@ -6,9 +7,10 @@ function App() {
 
   return (
     <>
-    <div>
+    
       <Header/>
-    </div>
+      <SearchBar/>
+    
     </>
   )
 }
