@@ -15,7 +15,11 @@
 }
 .button{
     padding: 16px 24px;
-    /* background-color: ; */
+    background-color: #2563eb;
+    color: white;
     cursor: pointer;
     border: none;
-} 
+    border-radius: 8px;
+    font-size: 16px;
+    
+}
