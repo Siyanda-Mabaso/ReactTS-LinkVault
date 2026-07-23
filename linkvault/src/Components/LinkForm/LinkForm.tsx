@@ -1,4 +1,4 @@
-import React from 'react'
+
 import style from './LinkForm.module.css'
 
  const LinkForm = () => {
@@ -7,6 +7,11 @@ import style from './LinkForm.module.css'
     <input 
     type="text"
     placeholder='Tittle'
+    className={style['input']}
+     />
+        <input 
+    type="text"
+    placeholder='Description'
     className={style['input']}
      />
 

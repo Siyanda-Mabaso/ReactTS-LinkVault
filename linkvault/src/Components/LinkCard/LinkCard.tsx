@@ -1,12 +1,15 @@
 import React from 'react'
 import style from './LinkCard.module.css'
- const LinkCard = () => {
+import { type LinkProps } from './LinkProps' 
+
+ const LinkCard:React.FC<LinkProps> = ({title,description,url}) => {
   return (
     <div className={style['card']}>
 
         <div className={style['info']}>
-            <h3 className={style['title']}>Google</h3>
-            <p className={style['url']}>https.google.com</p>
+            <h3 className={style['title']}>{title}</h3>
+            <p className={style['url']}>{url}</p>
+             <p className={style['description']}>{description}</p>
         </div>
         <div className={style['actions']}>
             <button className={style['edit-btn']}>Edit</button>
