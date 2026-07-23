@@ -3,12 +3,19 @@ import style from './LinkForm.module.css'
 
  const LinkForm = () => {
   return (
-   <form>
-      <label>Enter your name:
-        <input 
-        type="text" 
-        placeholder='Enter Link'/>
-      </label>
+   <form className={style['form']}>
+    <input 
+    type="text"
+    placeholder='Tittle'
+    className={style['input']}
+     />
+
+     <input 
+    type="url"
+    placeholder='https....eg'
+    className={style['input']}
+     />
+     <button type='submit'>Add Link</button>
     </form>
   )
 }

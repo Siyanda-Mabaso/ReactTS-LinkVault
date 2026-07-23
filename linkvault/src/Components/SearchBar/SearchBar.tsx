@@ -12,4 +12,4 @@ import './SearchBar.css'
     </div>
   )
 }
-export default SearchBar;
+export default SearchBar; 
