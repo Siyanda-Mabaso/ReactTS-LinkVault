@@ -1,8 +1,8 @@
 import React from 'react'
 import style from './LinkCard.module.css'
-import { type LinkProps } from './LinkProps' 
+import  type {  LinkProps } from './LinkProps' 
 
- const LinkCard:React.FC<LinkProps> = ({title,description,url}) => {
+ export const LinkCard:React.FC<LinkProps> = ({title,description,url}) => {
   return (
     <div className={style['card']}>
 
@@ -18,4 +18,3 @@ import { type LinkProps } from './LinkProps'
     </div>
   )
 }
-export default LinkCard 
